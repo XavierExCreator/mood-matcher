@@ -53,3 +53,4 @@ function onFormSubmit(e) {
 
   moodForm.reset();
 }
+

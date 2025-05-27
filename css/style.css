@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubbler+One&family=Exile&family=Fuzzy+Bubbles:wght@400;700&display=swap');
+
+body {
+    background-color: mintcream;
+    margin: 5rem;
+    font-family: "Fuzzy Bubbles", sans-serif;
+}
+
+.formGroup {
+    background-color: pink;
+    padding: 1rem;
+    border-radius: 10px;
+    max-width: 500px;
+    align-items: center;
+    margin: auto;
+    border: .5rem hotpink solid;
+    font-weight: 550;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Exile", system-ui;
+}
+
+.endResult {
+    text-align: center;
+    margin: auto;
+}
+
+.imgSrc {
+ align-items: center;
+ margin: auto;
+ text-align: center;
+}
