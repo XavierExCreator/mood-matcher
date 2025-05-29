@@ -1,39 +1,41 @@
-<!--  -->
+<!-- starting the HTML file  -->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> <!-- Setting language to english -->
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mood Manager</title>
-      <link rel="stylesheet" href="css/style.css" />
+    <title>Mood Manager</title>  
+      <link rel="stylesheet" href="css/style.css" /> <!-- Linking CSS to HTML -->
   </head>
-
+<!-- Greating the body for HTML -->
   <body>
-    <div class="formGroup">
-      <h1>Mood Matcher</h1>
-      <form id="moodForm">
-        <label for="moodChoice">How are you feeling?</label>
-        <br />
-        <select id="moodChoice" name="moodChoice">
+    <div class="formGroup"> <!-- tagging a div and class for the form -->
+      <h1>Mood Matcher</h1> <!-- h1 tag with form title -->
+      <form id="moodForm"> <!-- Start of form with ID -->
+        <label for="moodChoice">How are you feeling?</label> <!-- label for users feelings -->
+        <br /> <!-- Break placement, also on lines: 23, 25 and 32 -->
+        <select id="moodChoice" name="moodChoice"> <!-- user may choose between these options in the form -->
           <option>--Choose one--</option>
           <option value="happy">Happy</option>
           <option value="sad">Sad</option>
           <option value="calm">Calm</option>
         </select>
         <br />
-        <label for="moodWhy">Why do you feel this way?</label><br />
-        <input 
+        <label for="moodWhy">Why do you feel this way?</label> <!-- user will be asked how they feel on the form -->
+        <br /> 
+        <input  
           required
           type="text"
           name="moodWhy"
           id="moodWhy"
-          placeholder="I'm feeling like this because..."
-        /><br />
-        <button type="submit">Submit</button>
+          placeholder="I'm feeling like this because..." 
+        /> 
+        <br />
+        <button type="submit">Submit</button> <!-- submition button for form -->
       </form>
     </div>
-    <div class="endResult"></div>
+    <div class="endResult"></div> <!-- Empty div for users results to pop-up here -->
     </div>
-    <script src="js/custom.js"></script>
+    <script src="js/custom.js"></script> <!-- Adding scripts to HTML for JS to connect -->
   </body>
 </html>

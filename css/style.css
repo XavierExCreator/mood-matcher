@@ -62,8 +62,8 @@ img {
 }
 
 .calmOutcome {
-    background-color: #a2b4df;
-    border: .5rem #e4d0ce solid;
+    background-color: #e4d0ce;
+    border: .5rem #a2b4df solid;
 }
 
 .happyOutcome {
