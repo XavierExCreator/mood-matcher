@@ -1,11 +1,14 @@
+/* Importing fonts for the CSS */
 @import url('https://fonts.googleapis.com/css2?family=Bubbler+One&family=Exile&family=Fuzzy+Bubbles:wght@400;700&display=swap');
 
+/* Styling the body with a general font, background color and a starting margin*/
 body {
     background-color: mintcream;
     margin: 5rem;
     font-family: "Fuzzy Bubbles", sans-serif;
 }
 
+/* Stying this div group to have a pink colorScheme and adding the preffered positioning and size of the group */
 .formGroup {
     background-color: pink;
     padding: 1rem;
@@ -17,18 +20,53 @@ body {
     font-weight: 550;
 }
 
-h1 {
-    text-align: center;
+/* Giving h1 and h2 a different font than the body */
+h1, h2 {
     font-family: "Exile", system-ui;
 }
 
+/* Centering these tags */
+h1, h2, p {
+    text-align: center;
+}
+
+/* Styingling the h2 to have a specific fontSize and fontWeight */
+h2{
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+/* Making the p tag a slightly bigger fontSize */
+p {
+    font-size: 1.25rem;
+}
+
+/* Aligning this div group to the center and it's text */
 .endResult {
     text-align: center;
     margin: auto;
 }
 
-.imgSrc {
+/* Styling for the image to be a specifc size and to be centered */
+img {
+ width: 300px;
+ display: flex;
+ justify-content: center;
  align-items: center;
  margin: auto;
- text-align: center;
+}
+
+.sadOutcome {
+    background-color: #98b1b3;
+    border: .5rem #577476 solid;
+}
+
+.calmOutcome {
+    background-color: #a2b4df;
+    border: .5rem #e4d0ce solid;
+}
+
+.happyOutcome {
+    background-color: #fef5cc;
+    border: .5rem #eaa938 solid;
 }
